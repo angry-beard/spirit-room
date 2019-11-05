@@ -1,7 +1,0 @@
-# yml无法用@PropertySource导入配置
-time:
-  drink: ${random.value}
-  beer: ${random.int}
-  siprit: ${random.long}
-  maguey: ${random.int(10)}
-  lafite: ${random.int(10,20)}
