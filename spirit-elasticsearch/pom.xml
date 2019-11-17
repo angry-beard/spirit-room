@@ -9,7 +9,7 @@
     </parent>
     <groupId>fun.angry-beard</groupId>
     <artifactId>spirit-elasticsearch</artifactId>
-    <version>${project.release.version}</version>
+    <version>${project.version}</version>
 
     <dependencies>
         <dependency>
