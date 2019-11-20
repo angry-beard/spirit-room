@@ -1,5 +1,5 @@
 server:
-  port: 8087
+  port: 8088
 
 spring:
   datasource:
@@ -7,7 +7,6 @@ spring:
     url: jdbc:mysql://106.14.119.243:3306/flowable?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&characterEncoding=UTF8
     username: angry_beard
     password: Tomcat@8090
-
 
 flowable:
   #关闭定时任务JOB
