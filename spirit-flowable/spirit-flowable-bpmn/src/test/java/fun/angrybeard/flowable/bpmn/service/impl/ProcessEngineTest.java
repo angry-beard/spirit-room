@@ -37,6 +37,7 @@ public class ProcessEngineTest {
         DeploymentBuilder builder = repositoryService.createDeployment()
                 .category("测试分类")
                 .name("名称");
+
         log.info(builder + "");
     }
 }
