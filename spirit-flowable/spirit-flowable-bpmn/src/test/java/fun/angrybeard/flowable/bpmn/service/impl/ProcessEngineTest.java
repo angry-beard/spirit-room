@@ -26,7 +26,6 @@ public class ProcessEngineTest {
 
     @Before
     public void initProcessEngine() {
-
         processEngine = ProcessEngines.getDefaultProcessEngine();
         log.info(processEngine + "");
         repositoryService = processEngine.getRepositoryService();
