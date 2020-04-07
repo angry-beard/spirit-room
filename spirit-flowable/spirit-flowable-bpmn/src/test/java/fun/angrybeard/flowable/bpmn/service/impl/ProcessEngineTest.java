@@ -15,7 +15,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = {BPMNApplication.class})
 public class ProcessEngineTest {
 
-    private ProcessEngine processEngine;
     private RepositoryService repositoryService;
     private DynamicBpmnService dynamicBpmnService;
     private FormService formService;
@@ -26,7 +25,7 @@ public class ProcessEngineTest {
 
     @Before
     public void initProcessEngine() {
-        processEngine = ProcessEngines.getDefaultProcessEngine();
+        ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
         log.info(processEngine + "");
         repositoryService = processEngine.getRepositoryService();
         log.info(repositoryService + "");

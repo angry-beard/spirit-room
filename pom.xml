@@ -17,6 +17,7 @@
     <modules>
         <module>spirit-elasticsearch</module>
         <module>spirit-flowable</module>
+        <module>spirit-utils</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
